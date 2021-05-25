@@ -1,0 +1,1 @@
+In this section you learned what the perceptron algorithm is, and how to use it for solving classification problems. Next, we'll see other very useful classification algorithms.
