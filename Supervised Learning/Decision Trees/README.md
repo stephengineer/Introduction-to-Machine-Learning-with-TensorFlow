@@ -1,0 +1,1 @@
+In this section you've learned all about decision trees, and how to use them to make predictions. In the next section, we are going to learn more about some of the concepts we alluded to in this section—how to test and evaluate your model to see how it's performing. See you there!
