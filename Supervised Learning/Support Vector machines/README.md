@@ -18,7 +18,7 @@ Unfortunately, data in the real world is rarely completely separable as shown in
 
 __Note: when C is too large for a particular set of data, you might not get convergence at all because your data cannot be separated with the small number of errors allotted with such a large value of C.__
 
-[!cParameter]()
+![cParameter](./cParameter.png)
 
 
 ### Kernels
@@ -30,10 +30,13 @@ Finally, we looked at what makes SVMs truly powerful, kernels. Kernels in SVMs a
 
 By far the most popular kernel is the __rbf__ kernel (which stands for radial basis function). The rbf kernel allows you the opportunity to classify points that seem hard to separate in any space. This is a density based approach that looks at the closeness of points to one another. This introduces another hyper-parameter __gamma__. When __gamma__ is large, the outcome is similar to having a large value of C, that is your algorithm will attempt to classify every point correctly. Alternatively, small values of __gamma__ will try to cluster in a more general way that will make more mistakes, but may perform better when it sees new data.
 
+![rbfKernel](./rbfKernel.png)
+
+
 ### Resources
 
 [Support Vector Machines are described in Introduction to Statistical Learning starting on page 337.](http://faculty.marshall.usc.edu/gareth-james/)
 
 [The wikipedia page related to SVMs](https://en.wikipedia.org/wiki/Support-vector_machine)
 
-[The derivation of SVMs from Stanford's CS229 notes.]()
+[The derivation of SVMs from Stanford's CS229 notes.](./cs229-notes3.pdf)
