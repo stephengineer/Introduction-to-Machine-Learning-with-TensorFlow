@@ -5,7 +5,7 @@ from sklearn.linear_model import Lasso
 
 # Assign the data to predictor and outcome variables
 # TODO: Load the data
-train_data = pd.read_csv('data.csv', header = None)
+train_data = pd.read_csv('regularization_data.csv', header = None)
 X = train_data.iloc[:,:-1]
 y = train_data.iloc[:,-1]
 
