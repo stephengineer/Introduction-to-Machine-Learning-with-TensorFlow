@@ -82,10 +82,10 @@ If you're waiting for new content or to get the review back, here's a great vide
 ## D. Project Submission Checklist
 Before submitting your project, please review and confirm the following items.
 
-[ ] I am confident all rubric items have been met and my project will pass as submitted.
+- [ ] I am confident all rubric items have been met and my project will pass as submitted.
 
-[ ] Project builds correctly without errors and runs.
+- [ ] Project builds correctly without errors and runs.
 
-[ ] All required functionality exists and my project behaves as expected per the project's specifications.
+- [ ] All required functionality exists and my project behaves as expected per the project's specifications.
 
 Once you have checked all these items, you are ready to submit!
