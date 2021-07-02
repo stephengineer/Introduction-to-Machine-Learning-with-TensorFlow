@@ -17,20 +17,20 @@ The data comes from the [UCI Machine Learning Database](https://archive.ics.uci.
 
 4. Create a new conda environment:
 
-`conda create --name deep-learning python=3`
+	`conda create --name deep-learning python=3`
 
 5. Enter your new environment:
 
-- Mac/Linux: `>> source activate deep-learning`
-- Windows: `>> activate deep-learning`
+	- Mac/Linux: `>> source activate deep-learning`
+	- Windows: `>> activate deep-learning`
 
 6. Ensure you have `numpy`, `matplotlib`, `pandas`, and `jupyter notebook` installed by doing the following:
 
-`conda install numpy matplotlib pandas jupyter notebook`
+	`conda install numpy matplotlib pandas jupyter notebook`
 
 7. Run the following to open up the notebook server:
 
-`jupyter notebook`
+	`jupyter notebook`
 
 8. In your browser, open `Predicting_bike_sharing_data.ipynb`. Note that in the previous workspace this was called `Your_first_neural_network.ipynb` but the contents are the same, this is just a descriptive difference.
 
@@ -66,14 +66,14 @@ A student's submission gets checked against the following unit-test cases in the
 5. The learning_rate should be between 0.05 and 5
 6. As already mentioned in the test-cases in `Your_first_neural_network.ipynb`, for the given `NeuralNetwork(3, 2, 1, 0.5)`, the forward pass implementation, backpropagation implementation, and update_weights implementation should be correct. __Expected updated weights are__:
 
-- Hidden to output = `[[0.37275328], [-0.03172939]]`
-- Input to hidden=`[[0.10562014, -0.20185996], [0.39775194, 0.50074398], [-0.29887597, 0.19962801]]`
+	- Hidden to output = `[[0.37275328], [-0.03172939]]`
+	- Input to hidden=`[[0.10562014, -0.20185996], [0.39775194, 0.50074398], [-0.29887597, 0.19962801]]`
 
 7. The run method should have an expected input as 0.09998924
 8. Produces good results when running the network on full data. Requirements are:
 
-- __Training loss should be less than 0.09__
-- __Validation loss should be less than 0.18__
+	- __Training loss should be less than 0.09__
+	- __Validation loss should be less than 0.18__
 
 ### What to do afterward
 If you're waiting for new content or to get the review back, here's a great video from Frank Chen about the history of deep learning. It's a 45 minute video, sort of a short documentary, starting in the 1950s and bringing us to the current boom in deep learning and artificial intelligence.
